@@ -3,8 +3,7 @@ This is a sample Go package structure designed with a layered architecture follo
 
 ## Directory Structure
 ```
-/root
-/myapp
+.
 |-- /cmd
 |   |-- /myapp
 |       |-- main.go
