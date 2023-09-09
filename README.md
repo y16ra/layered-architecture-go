@@ -64,7 +64,7 @@ This is a sample Go package structure designed with a layered architecture follo
     - `repository`: Contains the concrete implementations of the repository interfaces.
   - `mysql`: Specific implementations and configurations for a MySQL database.
 
-## interface/
+## `interface`
 - **Description**: Handles the interaction between the user and the application.
   - `handler`: Contains the logic for handling specific API endpoints.
   - `middleware`: Implements cross-cutting concerns like authentication, logging, and error handling.
