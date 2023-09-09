@@ -20,9 +20,7 @@ This is a sample Go package structure designed with a layered architecture follo
 |   |-- /event
 |   |   |-- user_created_event.go
 |   |-- /dto
-|   |   |-- user_dto.go
-|   |-- /validator
-|       |-- user_validator.go
+|   |   └── user_dto.go
 |-- /infrastructure
 │   ├── persistence/
 │   │   ├── entity/
