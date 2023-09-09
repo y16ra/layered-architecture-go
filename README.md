@@ -1,6 +1,19 @@
 # layered-architecture-go
 This is a sample Go package structure designed with a layered architecture following DDD (Domain-Driven Design) principles.
 
+## DDD Architecture
+```mermaid
+graph TD
+    A[Interface/API]
+    B[Use Case]
+    C[Domain]
+    D[Infrastructure]
+    
+    A --> B
+    B --> C
+    D --> C
+```
+
 ## Directory Structure
 ```
 .
